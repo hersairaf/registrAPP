@@ -12,7 +12,7 @@
     <ion-text color="danger" *ngIf="errorMessage">{{errorMessage}}</ion-text>
   </form>
 
-  <!-- Botón para restablecer contraseña -->
+  <!-- Reestablecer contraseña -->
   <ion-button expand="none" fill="outline" (click)="abrirModalRestablecer()">Restablecer contraseña</ion-button>
 
   <!-- Modal de restablecimiento de contraseña -->
@@ -35,7 +35,7 @@
           </ion-item>
           <ion-button expand="full" type="submit">Enviar</ion-button>
         </form>
-        <ion-text color="primary" *ngIf="mensaje">{{mensaje}}</ion-text>
+        <ion-text color="secondary" *ngIf="mensaje">{{mensaje}}</ion-text>
       </ion-content>
     </ng-template>
   </ion-modal>

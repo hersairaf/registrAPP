@@ -47,7 +47,7 @@ export class LoginPage implements OnInit {
 
   cerrarModalRestablecer() {
     this.isModalOpen = false;
-    this.mensaje = ''; // Limpiar mensaje al cerrar el modal
+    this.mensaje = ''; // Limpiar mensaje al cerrar modal
   }
 
   enviarCorreoRestablecimiento() {
